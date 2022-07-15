@@ -1,0 +1,162 @@
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header li {
+    float: left;
+
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#header li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.active {
+    background-color: darkseagreen;
+}
+
+/*.row2 img{
+    width: 850px;
+    height: 700px;
+    border-radius: 7px 70px;
+}*/
+.row2 {
+    overflow: auto;
+    margin: 150px 0 150px 0;
+}
+
+.leftCol {
+    float: left;
+    width: 35%;
+    /*border: darkseagreen solid 2px;*/
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.rightCol {
+    float: right;
+    width: 50%;
+    /*border: red solid 2px;*/
+
+}
+
+.leftCol #head1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.leftCol #head1 h1 {
+    font-size: 50px;
+    font-family: "Arabic Typesetting";
+    text-transform: uppercase;
+}
+
+.leftCol #button {
+    clear: left;
+    margin-left: 80px;
+}
+
+.leftCol #button button {
+    border: 3px ridge lightslategray;
+    border-radius: 2px;
+}
+
+.leftCol #button button a {
+    color: black;
+    font-family: "Bell MT";
+}
+
+.leftCol #button a:hover {
+    color: cadetblue;
+}
+
+.rightCol #image {
+    float: right;
+    margin-left: 10px;
+}
+
+.rightCol img {
+    width: 700px;
+    height: 700px;
+    border-radius: 7px 70px;
+}
+
+.rightCol img:hover {
+    opacity: 0.6;
+}
+
+/*footer*/
+.row3 {
+    margin-bottom: 50px;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer li a {
+    text-decoration: none;
+}
+
+#footer li img {
+    margin: 5px 8px 5px 8px;
+    width: 3%;
+}
+
+#footer li img:hover {
+    width: 5%;
+}
+
+#linkedin img {
+    margin-left: 5px;
+    outline: outset deepskyblue;
+    border-radius: 4px;
+}
+
+
+#github img {
+    border-radius: 50%;
+    outline: outset dimgray;
+}
+
+#instagram img {
+    border: 1px groove #333333;
+    border-radius: 15%;
+    outline: groove #333333;
+}
+
+
+
+
+
+
+
