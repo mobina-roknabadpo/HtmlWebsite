@@ -85,11 +85,10 @@ em:hover {
 }
 
 .column {
-    border: 3px dashed rebeccapurple;
     width: 49%;
     height: 200px;
     float: left;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 10px 0;
 }
 
 .right {
@@ -107,6 +106,14 @@ li::marker {
 ul li {
     line-height: 1.5;
     text-align: justify;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 2px;
+}
+
+ul li img{
+    width: 5%;
+    margin: 5px 3px 2px 5px;
 }
 
 h2 {
