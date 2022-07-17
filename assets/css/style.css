@@ -48,6 +48,7 @@ body {
 .row2 {
     overflow: auto;
     margin: 150px 0 150px 0;
+    background-color: #e32323;
 }
 
 .leftCol {
