@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .clear {
     clear: both;
 }
@@ -28,7 +32,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 #header li a:hover:not(.active) {
@@ -104,6 +107,7 @@ body {
     width: 700px;
     height: 700px;
     border-radius: 7px 70px;
+    cursor: zoom-in;
 }
 
 .rightCol img:hover {
