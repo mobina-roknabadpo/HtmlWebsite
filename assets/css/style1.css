@@ -8,6 +8,7 @@
 
 body {
     margin: 0;
+    background-image: url("");
 }
 
 .nav ul {
@@ -78,9 +79,11 @@ em {
 em:hover {
     color: rgba(0, 0, 0, 0.24);
 }
-.skills{
+
+.skills {
     height: 500px;
 }
+
 ::selection {
     color: powderblue;
     background-color: white;
@@ -133,4 +136,11 @@ h2 img {
 
 strong:hover {
     color: firebrick;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
 }
