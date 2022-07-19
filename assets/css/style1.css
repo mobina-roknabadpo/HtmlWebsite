@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+
 }
 
 .row1 .header img {
@@ -44,13 +45,13 @@ div.row2 {
     margin: 70px 10px 70px 10px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.2);
-    overflow: auto;
+    overflow:auto;
 }
 
 .profile, .skills, .Education {
     overflow: visible;
-    border: 3px ridge dimgrey;
-    margin: 40px 20px 40px 20px;
+    /*border: 3px ridge dimgrey;*/
+    margin: 50px 30px 50px 30px;
 }
 
 .profile article p {
@@ -59,6 +60,7 @@ div.row2 {
     text-align: justify;
     padding-left: 25px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .skills {
@@ -67,8 +69,8 @@ div.row2 {
 
 .column {
     float: left;
-    width: 49%;
-    margin: 0 0 0 1px;
+    width: 48%;
+    margin-top: 30px;
 }
 
 .column ul li {
@@ -79,15 +81,12 @@ div.row2 {
     font-size: 25px;
     padding: 20px;
     height: 80px;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
-.left ul li {
-    width: 100%;
-}
-
-.right ul li {
+.column ul li:hover{
+    background-color: #93a5b6;
 }
 
 .skills ul li img {
@@ -96,19 +95,12 @@ div.row2 {
     margin-right: 5px;
 }
 
+
 .row2:after {
     content: "";
     display: table;
     clear: both;
 }
-
-div.row3 {
-    margin: 60px 10px 60px 10px;
-    padding: 15px;
-    background-color: white;
-    opacity: 0.3;
-}
-
 
 em {
     text-decoration: underline;
@@ -132,6 +124,7 @@ h2 {
 span {
     font-family: Calibri;
     padding-left: 25px;
+    text-align: justify;
 
 }
 
@@ -141,6 +134,14 @@ h2:hover {
 
 h2 img {
     margin: 0 5px 0 3px;
+}
+
+h4{
+    padding-left: 25px;
+}
+
+.edu span img{
+    width: 2%;
 }
 
 strong:hover {
@@ -157,3 +158,4 @@ hr {
 hr:hover {
     border-top: 1px solid rgba(0, 0, 0, 0.47)
 }
+
