@@ -154,45 +154,44 @@ body {
     margin-bottom: 50px;
 }
 
-#footer ul {
-    list-style-type: none;
+.navFooter {
+    margin-bottom: 50px;
+
 }
 
-#footer li {
+.navFooter h3 {
+    margin-top: 50px;
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.navFooter ul li {
     display: inline;
+    padding: 10px;
 }
 
-#footer li a {
-    text-decoration: none;
+.navFooter a {
+    padding: 0 5px 0 5px;
+    color: inherit;
+
 }
 
-#footer li img {
-    margin: 5px 8px 5px 8px;
-    width: 3%;
+.navFooter li img {
+    transition: width 3s, height 3s, transform 3s;
 }
 
-#footer li img:hover {
-    width: 5%;
+.navFooter li img:hover {
+    width: 50px;
+    height: 50px;
+    transform: rotate(1800deg);
 }
 
-#linkedin img {
-    margin-left: 5px;
-    outline: outset deepskyblue;
-    border-radius: 4px;
+h3 {
+    text-align: center;
+    color: grey;
 }
-
-
-#github img {
-    border-radius: 50%;
-    outline: outset dimgray;
-}
-
-#instagram img {
-    border: 1px groove #333333;
-    border-radius: 15%;
-    outline: groove #333333;
-}
-
 
 
 
