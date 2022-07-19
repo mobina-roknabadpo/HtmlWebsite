@@ -41,11 +41,11 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-div.row2 {
+.row2 {
     margin: 70px 10px 70px 10px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.2);
-    overflow:auto;
+    overflow: auto;
 }
 
 .profile, .skills, .Education {
@@ -85,7 +85,7 @@ div.row2 {
 
 }
 
-.column ul li:hover{
+.column ul li:hover {
     background-color: #93a5b6;
 }
 
@@ -136,11 +136,11 @@ h2 img {
     margin: 0 5px 0 3px;
 }
 
-h4{
+h4 {
     padding-left: 25px;
 }
 
-.edu span img{
+.edu span img {
     width: 2%;
 }
 
@@ -157,5 +157,37 @@ hr {
 
 hr:hover {
     border-top: 1px solid rgba(0, 0, 0, 0.47)
+}
+
+.navFooter {
+    margin-bottom: 0;
+
+}
+
+.navFooter h3 {
+    margin-top: 50px;
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.navFooter ul li {
+    display: inline;
+}
+
+.navFooter a {
+    padding: 0 5px 0 5px;
+    color: inherit;
+
+}
+
+#linkedin img:hover {
+    color: dodgerblue;
+}
+
+h3 {
+    text-align: center;
+    color: grey;
 }
 
