@@ -1,6 +1,3 @@
-:root {
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
 * {
     box-sizing: border-box;
@@ -8,7 +5,11 @@
 
 body {
     margin: 0;
-    background-image: url("https://www.brenergy.co/wp-content/uploads/2021/06/Blogs.png");
+}
+
+.row1 .header img{
+    width: 100%;
+    height: 550px;
 }
 
 .nav ul {
@@ -16,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e32323;
+    background-color: rgba(0, 0, 0, 0.09);
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,14 +30,14 @@ body {
 
 .nav li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(255, 255, 255);
 }
 
 div.row2 {
