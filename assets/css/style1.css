@@ -64,13 +64,15 @@ div.row3 {
     overflow: auto;
     border: 3px ridge dimgrey;
     padding: 5px;
-    margin: 10px 20px 10px 20px;
+    margin: 30px 20px 30px 20px;
 }
 
 .profile article p {
     font-family: Georgia, serif;
     line-height: 1.5;
     text-align: justify;
+    padding-left: 25px;
+    margin-top: 30px;
 }
 
 em {
@@ -86,8 +88,8 @@ em:hover {
 }
 
 ::selection {
-    color: powderblue;
-    background-color: white;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.51);
 }
 
 .column {
@@ -123,8 +125,14 @@ li::marker {
     margin-right: 5px;
 }
 
-h2 {
+h2{
     font-family: 'Times New Roman', serif;
+}
+
+span{
+    font-family: Calibri;
+    padding-left: 25px;
+
 }
 
 h2:hover {
@@ -144,4 +152,7 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #eee
+}
+hr:hover{
+    border-top: 1px solid rgba(0, 0, 0, 0.47)
 }
